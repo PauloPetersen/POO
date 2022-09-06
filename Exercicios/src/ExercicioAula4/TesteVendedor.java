@@ -12,9 +12,10 @@ public class TesteVendedor {
 		int vendedor;
 		Fixo x;
 		Scanner sc = new Scanner(System.in);
+				
 		Fixo vendedorFixo = new Fixo("Erick", "12345", 1000.);
 		Fixo vendedorFixo2 = new Fixo("Joana", "12345", 2000.);
-
+		
 		System.out.println("Vendedores: ");
 		System.out.println("1-" + vendedorFixo.getNome());
 		System.out.println("2-" + vendedorFixo2.getNome());
